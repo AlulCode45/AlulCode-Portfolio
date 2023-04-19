@@ -1,7 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -11,7 +8,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Pagination, Navigation } from "swiper";
-import DocViewer, { DocViewerRenderers, PDFRenderer, PNGRenderer } from "@cyntler/react-doc-viewer";
+import DocViewer, { DocViewerRenderers } from "@cyntler/react-doc-viewer";
 import { useEffect, useState } from 'react';
 
 // const inter = Inter({ subsets: ['latin'] })
