@@ -387,7 +387,7 @@ export default function Home() {
               clickable: true,
             }}
             modules={[Pagination, Navigation]}
-            className="h-[600px] mt-10"
+            className="h-[700px] mt-10"
           >
             <SwiperSlide className='bg-gray-200 p-4 rounded-xl text-center'>
               <Image src={'/project/Aplikasi-Keanggotaan-ASPIKOM.png'} alt='' fill={true} />
@@ -406,6 +406,21 @@ export default function Home() {
             </SwiperSlide>
             <SwiperSlide className='bg-gray-200 p-4 rounded-xl text-center'>
               <Image src={'/project/Buku-induk.png'} alt='' fill={true} />
+            </SwiperSlide>
+            <SwiperSlide className='bg-gray-200 p-4 rounded-xl text-center'>
+              <Image src={'/project/Rekayasa-Perangkat-Lunak-SMKN-4-Bojonegoro.png'} alt='' fill={true} />
+            </SwiperSlide>
+            <SwiperSlide className='bg-gray-200 p-4 rounded-xl text-center'>
+              <Image src={'/project/CAS.png'} alt='' fill={true} />
+            </SwiperSlide>
+            <SwiperSlide className='bg-gray-200 p-4 rounded-xl text-center'>
+              <Image src={'/project/juragan-muda.png'} alt='' fill={true} />
+            </SwiperSlide>
+            <SwiperSlide className='bg-gray-200 p-4 rounded-xl text-center'>
+              <Image src={'/project/Toko-Bunga.png'} alt='' fill={true} />
+            </SwiperSlide>
+            <SwiperSlide className='bg-gray-200 p-4 rounded-xl text-center'>
+              <Image src={'/project/125876661_195188108826141_7271784542656022150_n.jpg'} alt='' fill={true} />
             </SwiperSlide>
           </Swiper>
         </section>
